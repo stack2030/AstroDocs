@@ -25,14 +25,10 @@ The documentation is provided in multiple formats:
 
 | Format | File |
 |---|---|
-| Markdown — all in one | [Astro-Docs-English-2026-07-18-All-in-One.md](20270718/TEXT/Astro-Docs-English-2026-07-18-All-in-One.md) |
-| Plain text — all in one | [Astro-Docs-English-2026-07-18-All-in-One.txt](20270718/TEXT/Astro-Docs-English-2026-07-18-All-in-One.txt) |
-| HTML — all in one | [Astro-Docs-English-2026-07-18-All-in-One.html](20270718/HTML/Astro-Docs-English-2026-07-18-All-in-One.html) |
-| PDF — all in one | [Astro-Docs-English-2026-07-18-All-in-One.pdf](20270718/PDF/Astro-Docs-English-2026-07-18-All-in-One.pdf) |
-| PDF — Tutorial | [Astro-Docs-English-2026-07-18-01-Tutorial.pdf](20270718/PDF/Astro-Docs-English-2026-07-18-01-Tutorial.pdf) |
-| PDF — Guide | [Astro-Docs-English-2026-07-18-02-Guide.pdf](20270718/PDF/Astro-Docs-English-2026-07-18-02-Guide.pdf) |
-| PDF — Reference | [Astro-Docs-English-2026-07-18-03-Reference.pdf](20270718/PDF/Astro-Docs-English-2026-07-18-03-Reference.pdf) |
-| PDF — Ecosystem | [Astro-Docs-English-2026-07-18-04-Ecosystem.pdf](20270718/PDF/Astro-Docs-English-2026-07-18-04-Ecosystem.pdf) |
+| Markdown | [Astro-Docs-English-2026-07-18-All-in-One.md](20270718/Astro-Docs-English-2026-07-18-All-in-One.md) |
+| Plain text | [Astro-Docs-English-2026-07-18-All-in-One.txt](20270718/Astro-Docs-English-2026-07-18-All-in-One.txt) |
+| HTML | [Astro-Docs-English-2026-07-18-All-in-One.html](20270718/Astro-Docs-English-2026-07-18-All-in-One.html) |
+| PDF | [Astro-Docs-English-2026-07-18-All-in-One.pdf](20270718/Astro-Docs-English-2026-07-18-All-in-One.pdf) |
 
 ## Coverage
 
@@ -43,7 +39,7 @@ Each edition includes all four primary documentation areas:
 3. **Reference**
 4. **Ecosystem**
 
-The all-in-one editions combine these sections into a single document. The PDF release also provides each section as an individual volume.
+Each file combines these sections into one all-in-one edition.
 
 ## Repository structure
 
@@ -52,36 +48,17 @@ AstroDocs/
 ├── README.md
 ├── LICENSE
 └── 20270718/
-    ├── HTML/
-    │   └── Astro-Docs-English-2026-07-18-All-in-One.html
-    ├── TEXT/
-    │   ├── Astro-Docs-English-2026-07-18-All-in-One.md
-    │   ├── Astro-Docs-English-2026-07-18-All-in-One.txt
-    │   └── Astro-Docs-English-2026-07-18-All-in-One.manifest.json
-    ├── PDF/
-    │   ├── Astro-Docs-English-2026-07-18-All-in-One.pdf
-    │   ├── Astro-Docs-English-2026-07-18-01-Tutorial.pdf
-    │   ├── Astro-Docs-English-2026-07-18-02-Guide.pdf
-    │   ├── Astro-Docs-English-2026-07-18-03-Reference.pdf
-    │   └── Astro-Docs-English-2026-07-18-04-Ecosystem.pdf
-    └── metadata/
-        ├── build-manifest.json
-        ├── source-files.json
-        ├── changes-since-previous.md
-        └── checksums.sha256
+    ├── Astro-Docs-English-2026-07-18-All-in-One.md
+    ├── Astro-Docs-English-2026-07-18-All-in-One.txt
+    ├── Astro-Docs-English-2026-07-18-All-in-One.html
+    └── Astro-Docs-English-2026-07-18-All-in-One.pdf
 ```
 
 ## Versioning
 
-Each release is stored in a date-coded directory. Every edition records:
+Each release is stored in a date-coded directory. The README records the documentation snapshot date and the exact upstream Astro documentation commit used for the edition.
 
-- Build date
-- Astro documentation source commit
-- Included English source files
-- File checksums
-- Changes since the previous edition
-
-This makes it possible to compare documentation snapshots and rebuild the books when the upstream Astro documentation changes.
+This makes it possible to identify and reproduce each archived documentation snapshot.
 
 ## Purpose
 
